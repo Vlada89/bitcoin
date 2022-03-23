@@ -1,0 +1,179 @@
+@media(min-width: 576px){
+    /*SM Breakpoint*/
+
+
+
+}
+
+
+@media(min-width: 768px){
+    /*MD Breakpoint*/
+    .owl-dots{
+        bottom:50px;
+    }
+
+
+    .home-content{
+        padding-top: 0;
+    }
+    .home-content h2{
+        font-size: 30px;
+        letter-spacing: normal;
+        line-height: 40px;
+        color: #FFFFFF;
+        margin-bottom: 25px;
+    }
+    .home-content p{
+        letter-spacing: normal;
+        line-height: 25px;
+        color: #FFFFFF;
+        margin-bottom: 25px;
+    }
+    .home-image{
+        padding: 100px 0 0px;
+    }
+
+    .benefit{
+        margin-top: -50px;
+        position: relative;
+        z-index: 2;
+
+    }
+    .benefit .container{
+        background-color: #FFFFFF;
+        border-radius: 5px;
+
+    }
+    .benefit-content{
+        padding: 60px 0 80px;
+    }
+    .benefit .benefit-content h6:after{
+        left: 0;
+        transform: translate(0%);
+    }
+    .pricing{
+        margin-bottom: 57px;
+    }
+    .pricing .pricing-content{
+        padding-top: 50px;
+    }
+    .pricing .pricing-content:hover{
+        border-top: 3px solid #0A8AFF;
+    }
+    .pricing h3{
+        font-size: 34px;
+        line-height: 46px;
+        padding: 50px 10px 45px;
+
+    }
+    .pricing h3:after{
+        width: 290px;
+    }
+    .pricing .pricing-content p:first-of-type{
+        margin-bottom: 50px;
+    }
+    .pricing .pricing-content .btn{
+        width: 210px;
+        height: 60px;
+        font-size: 10px;
+    }
+    .client{
+        margin-bottom: 140px
+    }
+    .nav-foot{
+        margin-bottom: 37px;
+    }
+
+
+}
+
+
+@media(min-width: 992px){
+    /*LG Breakpoint*/
+    .owl-dots{
+        bottom:75px;
+    }
+    .navbar-dark .navbar-nav a.nav-link{
+        border-bottom: none;
+        margin-inline:10px;
+    }
+    .navbar-dark .navbar-nav{
+        background-color: transparent;
+    }
+    
+    .navbar-dark .navbar-nav a.nav-link:hover{
+        border-radius: 6px;
+        color: #FFFFFF;
+    }
+    .navbar-dark .navbar-nav a.nav-link.active{
+        border-bottom: 2px solid #1FDB84;
+    }
+    .home-content h2{
+        font-size: 48px;
+        letter-spacing: normal;
+        line-height: 57px;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+    .home-content p{
+        letter-spacing: normal;
+        line-height: 32px;
+        color: #FFFFFF;
+        margin-bottom: 35px;
+    }
+    .home-image{
+        padding: 100px 0 0px;
+    }
+    .benefit{
+        margin-top: -80px;
+    }
+    .pricing h3{
+        font-size: 40px;
+        line-height: 59px;
+        padding: 55px 100px 60px;
+
+    }
+    .pricing h3:after{
+        width: 350px;
+    }
+    .pricing .pricing-content p:first-of-type{
+        margin-bottom: 60px;
+    }
+    .pricing .pricing-content .btn{
+        width: 270px;
+        height: 60px;
+        font-size: 16px;
+    }
+}
+
+
+@media(min-width: 1200px){
+    /*XL Breakpoint*/
+    .owl-dots{
+        bottom:100px;
+    }
+    .benefit{
+        margin-top: -100px;
+    }
+    .benefit .benefit-content h6{
+        font-size: 18px;
+
+    }
+    .benefit .benefit-content p{
+        font-size: 16px;
+        line-height:32px;
+    }
+
+
+}
+
+
+@media(min-width: 1400px){
+    /*XXL Breakpoint*/
+    .benefit .benefit-content p{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+}
